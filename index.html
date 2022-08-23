@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Pipsqueak Radio</title>
+    <meta name="description" content="Empowered, Free, Lit Thursday 7-8PM" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" type="image/x-icon" href="fav.png" />
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script src="script.js" type="script"></script>
+
+    <link rel="preload" href="ARLRDBD.ttf" as="font" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="marquee">
+      <div>
+        THURSDAYS 7-8PM THURSDAYS 7-8PM THURSDAYS 7-8PM THURSDAYS 7-8PM
+        THURSDAYS 7-8PM THURSDAYS 7-8PM THURSDAYS 7-8PM THURSDAYS 7-8PM
+      </div>
+    </div>
+
+    <div class="disc">PIPSQUEAK RADIO</div>
+
+    <div id="episodes">
+      <div id="embed-iframe"></div>
+    </div>
+
+    <!-- <iframe
+      style="border-radius: 12px"
+      src="https://open.spotify.com/embed/playlist/5Bt9bMwiHwvy0Twdgb6IGV?utm_source=generator&theme=0"
+      width="500"
+      height="700"
+      frameborder="0"
+      allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    ></iframe> -->
+
+    <div class="footer">
+      <div>Broadcasting on <a href="https://wrbbradio.org/">WRBB Radio</a></div>
+      <div><a href="https://www.instagram.com/pipsqueakradio/">insta</a></div>
+    </div>
+
+    <script src="marquee.js"></script>
+    <script
+      src="https://open.spotify.com/embed-podcast/iframe-api/v1"
+      async
+    ></script>
+    <script src="episodes.js"></script>
+  </body>
+</html>
